@@ -251,7 +251,7 @@ h6 {
   justify-content: center;
   flex-flow: column;
   text-align: center;
-  padding: 0 2rem;
+  padding: 0 1rem;
   position: relative;
   overflow: hidden !important;
 }
@@ -263,7 +263,7 @@ h6 {
 
 .home h3 {
   color: #fff;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .home h4 {
@@ -295,18 +295,14 @@ h6 {
 
 @media (max-width: 768px) {
   .home {
-    padding: 2rem;
+    padding-top: 120px;
   }
 
   .home h1 {
-    color: #fff;
-    font-size: 2.3rem;
+    font-size: 2.4rem;
   }
-
   .home h3 {
-    color: #fff;
-    font-size: 1.2rem;
-    margin-top: 1rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -560,6 +556,7 @@ h6 {
   position: relative;
   padding: 90px 0;
   background: #4f84c4;
+  margin-bottom: 1rem;
 }
 
 .call-to-action .container {
